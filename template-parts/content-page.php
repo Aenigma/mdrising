@@ -19,9 +19,9 @@
 <?php endif; ?>
 
 <div class="row">
-    
+
     <?php get_sidebar('left'); ?>
-    
+
     <div class="col-sm-<?php echo athena_main_width(); ?>">
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -64,7 +64,6 @@
         </article><!-- #post-## -->
     </div>
 
-    <?php #get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 
 </div>
-
