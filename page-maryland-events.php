@@ -15,9 +15,9 @@ get_header('maryland-events');
 
 
 <div class="row">
-    
+
     <?php get_sidebar('left'); ?>
-    
+
     <div class="col-sm-<?php echo athena_main_width(); ?>">
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -31,7 +31,7 @@ get_header('maryland-events');
                     <header class="entry-header">
                         <img class="ore-events-OR-image" src="<?php echo get_site_url() . "/wp-content/plugins/our-revolution-events/images/OR-logo.png" ?>" >
                         <?php the_title('<h1 class="entry-title maryland-events-title">', '</h1>'); ?>
-                        
+
                     </header><!-- .entry-header -->
 
 
@@ -62,7 +62,7 @@ get_header('maryland-events');
         </article><!-- #post-## -->
     </div>
 
-    <?php #get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 
 </div>
 
@@ -91,8 +91,8 @@ get_header('maryland-events');
     </main><!-- #main -->
 
 
-    
-    
+
+
 </div><!-- #primary -->
 
 
