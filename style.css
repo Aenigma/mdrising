@@ -886,7 +886,7 @@ object {
  */
 
 body {
-	background-color: #ccc; 
+	background-color: #ccc;
 }
 
 .athena-button.primary
@@ -944,8 +944,8 @@ ul.athena-nav {
 }
 
 #athena-featured, .woocommerce span.onsale {
-    
-    
+
+
 }
 
 @media (max-width: 991px) {
@@ -978,7 +978,7 @@ div.entry-content {
 #athena-page-jumbotron h1.entry-title {
     margin-top: 60px;
     text-shadow: 1px 1px 5px black;
-    
+
 }
 
 h1.entry-title {
@@ -1020,7 +1020,7 @@ div.issue-box {
 	padding: 0.2em 1em;
 	display:inline-block;
 	font-size: 1.1em;
-	
+
 }
 
 .issue-box strong {
@@ -1031,7 +1031,7 @@ div.issue-box {
 	font-size: 1.5em;
 	text-align: left;
 	padding: 0.5em !important;
-	
+
 }
 
 #main.athena-page {
@@ -1054,11 +1054,45 @@ img.signup-form-logo {
 	margin-right:auto;
 	max-width: 452px;
 	width:100%;
-	
+
 }
 .athena-footer-nav ul {
 	list-style-type: none;
 	padding-left: 0px !important;
 	margin-left:0px !important;
-	
+
+}
+
+input[type=email], input[type=search], input[type=text] {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #3498db;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #3264c8;
 }
