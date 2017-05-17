@@ -1063,6 +1063,13 @@ img.signup-form-logo {
 
 }
 
+.post {
+	background-color: white;
+    padding: 0 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
 input[type=email], input[type=search], input[type=text] {
     display: block;
     width: 100%;
