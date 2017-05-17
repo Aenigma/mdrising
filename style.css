@@ -950,12 +950,6 @@ ul.athena-nav {
     }
 }
 
-@media (min-width: 768px) {
-    .col-sm-9 {
-        width: 100%;
-    }
-}
-
 .athena-blog-post {
 		background-color: white;
 }
